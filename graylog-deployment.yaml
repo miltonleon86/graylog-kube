@@ -15,7 +15,7 @@ spec:
       containers:
       - env:
         - name: GRAYLOG_WEB_ENDPOINT_URI
-          value: http://127.0.0.1:9000/api
+          value: http://your_host/api
         - name: GRAYLOG_PASSWORD_SECRET
           value: somesaltpassword
         - name: GRAYLOG_ROOT_PASSWORD_SHA2
