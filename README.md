@@ -4,7 +4,7 @@
 
 ### 1. Make sure kubectl is up and working , connecting to kubenetes
 
-### 2. Modify you host on the graylog deployment and set you environment
+### 2. Modify you host on the graylog deployment and set your environment
 ```
  - name: GRAYLOG_WEB_ENDPOINT_URI
    value: http://your_host/api
