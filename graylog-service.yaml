@@ -7,10 +7,10 @@ metadata:
   name: graylog
 spec:
   ports:
-  - name: "Port out"
+  - name: "port-out"
     port: 80
     targetPort: 9000
-  - name: "Port Message"
+  - name: "port-message"
     port: 12201
     targetPort: 12201
   selector:
