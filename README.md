@@ -18,3 +18,5 @@
 ```
  kubectl create -f elasticsearch-deployment.yaml,elasticsearch-service.yaml,graylog-service.yaml,graylog-deployment.yaml,mongo-service.yaml,mongo-deployment.yaml
 ```
+
+##### Deleting the Pods would mean that you lose all graylog data. Do not use this in production. At least not with the current pod volume yml conf.
