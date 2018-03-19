@@ -20,7 +20,7 @@ spec:
           value: somesaltpassword
         - name: GRAYLOG_ROOT_PASSWORD_SHA2
           value: 5D5E792708BFA15F0AB42E817B4E69379777D2722E0529DFB031C0B847DB137D
-        image: graylog2/server:2.2.1-1
+        image: graylog2/server:2.4.3
         name: graylog
         ports:
         - containerPort: 9000
