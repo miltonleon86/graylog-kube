@@ -16,7 +16,7 @@
    value: A270CD4BF0378870F296EAB1F8CC52E24D88CE7A2513A57F4CABD9272D097178
 ```
 
-##### Use this sha256 to test or create you own here:
+##### Use this sha256 to test or create you own secret value here:
 https://passwordsgenerator.net/sha256-hash-generator/
 
 ### 3. Run graylog cluster 
