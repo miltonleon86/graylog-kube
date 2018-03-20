@@ -8,11 +8,14 @@
 ```
  - name: GRAYLOG_WEB_ENDPOINT_URI
    value: http://your_host/api
+ - name: GRAYLOG_ELASTICSEARCH_HOSTS
+   value: http://your_host:port  
  - name: GRAYLOG_PASSWORD_SECRET
    value: Some_secret_password_321
  - name: GRAYLOG_ROOT_PASSWORD_SHA2
    value: A270CD4BF0378870F296EAB1F8CC52E24D88CE7A2513A57F4CABD9272D097178
 ```
+
 ##### Use this sha256 to test or create you own here:
 https://passwordsgenerator.net/sha256-hash-generator/
 
@@ -22,3 +25,4 @@ https://passwordsgenerator.net/sha256-hash-generator/
 ```
 
 ##### Deleting the Pods would mean that you lose all graylog data. Do not use this in production. At least not with the current pod volume yml conf.
+

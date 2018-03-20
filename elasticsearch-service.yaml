@@ -6,12 +6,10 @@ metadata:
     service: elasticsearch
   name: elasticsearch
 spec:
-  clusterIP: None
   ports:
-  - name: headless
-    port: 55555
-    targetPort: 0
+  - name: elasticsearch
+    port: 9200
+    targetPort: 9200
   selector:
     service: elasticsearch
-status:
-  loadBalancer: {}
+  type: LoadBalancer
