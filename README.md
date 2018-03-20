@@ -26,3 +26,7 @@ https://passwordsgenerator.net/sha256-hash-generator/
 
 ##### Deleting the Pods would mean that you lose all graylog data. Do not use this in production. At least not with the current pod volume yml conf.
 
+* TODOs
+  * Check why UDP errors are not being show on the cluster Graylog.
+  * Do not open any external endpoint. Graylog should be deployed as a 
+  kube-system kubernetes intern api.
